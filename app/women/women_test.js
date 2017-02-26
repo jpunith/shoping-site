@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.view2 module', function() {
+describe('myApp.women module', function() {
 
-  beforeEach(module('myApp.view2'));
+  beforeEach(module('myApp.women'));
 
   describe('view2 controller', function(){
 

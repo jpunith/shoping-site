@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-md-6 col-lg-3" ng-repeat="manShirt in MC.menShirts">
+    <div class="thumbnail">
+      <img ng-src="{{manShirt.imageUrl}}" alt="not found">
+      <div class="caption">
+        <h3>{{manShirt.displayName}}</h3>
+        <p>Price: RS{{manShirt.price}}</p>
+        <p><a href="#" class="btn btn-primary" role="button">Add to Cart</a></p>
+      </div>
+    </div>
+  </div>
+</div>
